@@ -1,0 +1,41 @@
+/* pc */
+@media (min-width:1024px) {}
+
+/* taplet */
+@media (min-width:740px) and(max-width:1024px) {
+    #header .menu {
+        position: absolute;
+        display : block;
+        top     : 0;
+        right   : 0;
+    }
+}
+
+/* moble */
+@media(max-width:740px) {
+    #header {
+        width: 100vw;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu {
+        position: absolute;
+        display : block;
+        top     : 0;
+        right   : 0;
+    }
+}
