@@ -38,4 +38,32 @@
         top     : 0;
         right   : 0;
     }
+    #slider .text-content{
+        font-size: 15px;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .places-list  .place-item{
+        width: 100%;
+        margin-top: 16px;
+    }
+    #content .content-section .contact-info {
+        width: 100%;
+    }
+    .contrac-form{
+        margin-top: 12px;
+        width: 100%;
+    }
+   .form-item{
+       display: block;
+       float: none;
+       width: 100%;
+   } 
+   .map-section{
+       overflow: hidden;
+       height: 233px;
+   }
+   
 }
